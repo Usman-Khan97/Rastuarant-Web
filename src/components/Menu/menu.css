@@ -1,0 +1,112 @@
+.foody-app_menu-content{
+    padding-top: 8rem;
+}
+.foody-app_menu-content p{
+    color: #ff9000;
+    font-weight: 700;
+    padding: 0.5rem  1rem 0.5rem 1rem;
+    background: #fff;
+    border-radius: 4rem;
+    cursor: pointer;
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.5);
+}
+.foody-app_menu-content h1{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+.foody-app_menu p{
+    color: #ff9000;
+    font-weight: 700;
+    padding: 0.5rem  1rem 0.5rem 1rem;
+    background: #fff;
+    border-radius: 4rem;
+    cursor: pointer;
+    box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.5);
+}
+.foody-app_menus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.foody-app_menu-cards{
+    width: 18rem;
+    height: 26rem;
+    background: #fff;
+    margin-top: 8rem;
+    border-radius: 1rem;
+    box-shadow: 3px 8px 5px 3px rgba(0,0,0,0.5);
+    position: relative;
+}
+.foody-app_menu-cards:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+
+}
+.foody-app_menu-cards img{
+    width: 10rem;
+    position: absolute;
+    align-items: center;
+    top: -5rem;
+    left: 3.5rem;
+}
+.foody-app-menu-items{
+    margin-top: 6.5rem;
+}
+.foody-app-menu-items p:nth-child(1){
+    font-weight: 600;
+}
+.foody-app-menu-items p > span{
+    color: #ff9000;
+}
+.content{
+    color: #adabab;
+    font-weight: bold;
+}
+.type{
+    display: flex;
+    gap: 8rem;
+    color: #474747;
+}
+.type1{
+    display: flex;
+    gap: 8rem;
+    margin-top: -0.8rem;
+}
+.price{
+    display: flex;
+    gap: 8rem;
+    margin-top: 3rem;
+}
+.price h4{
+    font-weight: bold;
+    color: #000;
+}
+.price p{
+    font-size: 2rem;
+    margin-top: -0.8rem;
+    color: #ff9000;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 767px) {
+    .foody-app_menus{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 3rem;
+        margin-left: 2rem;
+    } 
+    .foody-app_menu-cards{
+        width: 18rem;
+        height: 26rem;
+    }
+    
+}
+@media screen and (min-width:768px ) and (max-width : 990px) {
+    .foody-app_menus{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 3rem;
+        margin-left: 2rem;
+    }    
+}

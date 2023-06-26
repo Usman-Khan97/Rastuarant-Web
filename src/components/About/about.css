@@ -1,0 +1,56 @@
+.about-us{
+    padding-top: 8rem;
+}
+.foody-app_about-us h6{
+    color: #ff9000;
+}
+.foody-app_about-us h1{
+    font-weight: bold;
+}
+.zigzag-line {
+    position: relative;
+    height: 20px;
+  }
+
+  .zigzag-line::before{
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 4px;
+    background-color: #ff9000;
+    margin-top: 0.5rem;
+    left: -5rem;
+
+  }
+.foody-app_about-us p{
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+}
+.foody-app-about-us_video {
+    border-radius: 15px;
+}
+.playbtn{
+    width: 3rem;
+    height: 3rem;
+    color: #ff9000;
+    cursor: pointer;
+    box-shadow: 5px 4px 5px 2px #302f2f;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.foody-app_about-us h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #adabab;
+    padding-top: 0.5rem;
+}
+
+@media screen and (max-width: 767px){
+    .foody-app-about-us_video {
+        width: 350px;
+    }    
+    .playbtn{
+        margin-top: -2rem;
+    }
+    
+}

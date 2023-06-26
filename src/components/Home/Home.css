@@ -1,0 +1,151 @@
+.foody-app_home_container{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.foody-app_home{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem auto;
+    /* place-items: center; */
+}
+.foody-app_home_item{
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+.foody-app_home_item h1{
+    font-size: 4rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+.foody-app_home_item span{
+    color: #ff9000;
+}
+.foody-app_home_item p{
+    font-size: 0.8rem;
+    color: rgb(88, 85, 85);
+    font-family: 'Manrope', sans-serif;
+}
+.button{
+    background: #fff;
+    padding: 1rem 2rem 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 4rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    box-shadow: 8px 5px 5px 1px rgba(0,0,0,0.5);
+}
+.button:hover{
+    transform: scale(0.985);
+    color: #ff9000;
+    transition: 0.1s;
+}
+.foody-app_home_item img{
+    width: 30rem;
+    border-radius: 100%;
+    margin-left: 2rem;
+  animation: rounded ease-in-out infinite 8s;
+}
+@keyframes rounded {
+    0%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        
+    }
+    50%{
+        border-radius: 30% 60% 80% 40% / 50% 60% 30% 60%;
+        }
+    100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
+    
+}
+.foody-app_company_name img{
+    width: 10rem;
+    cursor: pointer;
+}
+
+.foody-app_company_name img:hover{
+    opacity: 0.2;
+}
+.foody-app_company{
+    padding-top: 8rem;
+}
+.foody-app_company h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(187, 186, 186);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 767px) {
+    .foody-app_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem auto;
+        /* place-items: center; */
+    }
+    
+.foody-app_home_item h1{
+    font-size: 3.5rem;
+    /* text-align: center; */
+}
+.foody-app_home_item p{
+    font-size: 0.7rem;
+    /* text-align: center; */
+}
+.button{
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+.foody-app_home_item img{
+    width: 18rem;
+    border-radius: 100%;
+}
+.foody-app_company_name{
+    display: flex;
+    flex-direction: column;
+}
+
+    
+}
+ @media screen and (min-width: 768px) and (max-width: 990px) {
+    .foody-app_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem auto;
+    }
+    .foody-app_home_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.foody-app_home_item h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.foody-app_home_item p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.foody-app_home_item img{
+    width: 25rem;
+    border-radius: 100%;
+} 
+.foody-app_company_name{
+    display: flex;
+    flex-direction: row;
+}
+
+.foody-app_company_name img{
+    width: 6rem;
+}
+       
+}

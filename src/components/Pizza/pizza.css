@@ -1,0 +1,82 @@
+.foody-app_pizza{
+    display: flex;
+    gap: 5rem;
+    margin-top: 10rem;
+}
+.foody-app_pizza img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 5rem;
+}
+.foody-app_pizza p{
+        font-weight: 500;
+        font-size: 1rem;
+        width: 40rem;
+}
+.foody-app_sushi{
+    margin-top: 3rem;
+    gap: 5rem;
+}
+.foody-app_sushi img{
+    width: 25rem;
+}
+
+@media screen and (max-width: 767px){
+    .foody-app_pizza{
+        display: flex;
+        flex-direction: column;
+    }
+    .foody-app_pizza img{
+        width: auto;
+        margin: auto;
+    }
+    .foody-app_pizza p{
+        width: auto;
+        text-align: center;
+        margin-top: -10rem;
+}
+
+.foody-app_sushi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+.foody-app_sushi p{
+    text-align: center;
+}
+.foody-app_sushi img{
+    width: 15rem;
+}
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .foody-app_pizza{
+        display: flex;
+        flex-direction: column;
+    }
+    .foody-app_pizza img{
+        width: 25rem;
+        margin: auto;
+    }
+    .foody-app_pizza p{
+        width: auto;
+        text-align: center;
+        margin-top: -10rem;
+}
+
+.foody-app_sushi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+.foody-app_sushi p{
+    text-align: center;
+}
+.foody-app_sushi img{
+    width: 15rem;
+}
+}

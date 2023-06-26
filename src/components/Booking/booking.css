@@ -1,0 +1,49 @@
+.foody-app_booking p{ 
+    color: #ff9000;
+}
+.foody-app-booking-items {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.foody-app_booking-call{
+    border: 3px solid #504d4d;   
+    padding: 3rem 7rem 3rem 7rem;
+    border-top: none;
+    border-bottom: none;
+}
+.foody-app_booking-call h4{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 3rem;
+    background: #f1f0f0;
+    color: #ff9000;
+    border-radius: 5rem;
+    box-shadow: 3px 3px 4px  1px rgba(0,0,0,0.5);
+}
+.foody-app_booking-call p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:767px){
+    .foody-app-booking-items {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    
+.foody-app_booking-call{
+    border: 3px solid #504d4d;   
+    padding: 3rem 7rem 3rem 7rem;
+    border-left: none;
+    border-right: none;
+}
+.foody-app_booking-call p{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+}
